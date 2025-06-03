@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+   background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-cartoon-hand-drawn-weather-forecast-illustration-background-image_948666.jpg') ;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid cyan;
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  letter-spacing: 2px;
+}
+
+.search-box button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: linear-gradient(to right, #00f2fe, #4facfe);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  min-width: 300px;
+  color: black;
+}
+
+.weather-box h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-box h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+}
+
+.weather-box span {
+  font-size: 24px;
+  vertical-align: top;
+}
+
+.weather-box p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.weather-box strong {
+  display: inline-block;
+  width: 120px;
+}
